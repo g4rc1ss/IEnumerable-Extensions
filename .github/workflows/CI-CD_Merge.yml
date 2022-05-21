@@ -33,7 +33,7 @@ jobs:
     - name: Nuget Pack para preparar el paquete
       run: |
         cd tools/NugetConfig/
-        nuget pack IEnumerableExtensions.nuspec -Verbosity Detail
+        nuget pack Garciss.IEnumerableExtensions.nuspec -Verbosity Detail
         
     - name: Push generated package to GitHub registry
       run: |
